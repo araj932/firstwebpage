@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+h1 {
+    color: rgb(212, 49, 177);
+    text-align: center;
+    font-family: Varela Round,Rubik Lines, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    
+    /* background-color: #82795f; */
+    /* font-weight:1800 */
+    
+}
+
+
+h2 {
+    color: rgb(205, 169, 51);
+    text-align: center;
+    font-family:Varela Round, Rubik Lines, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+
+}
+
+p {
+    font-family: Varela Round,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(219, 151, 42, 0.525);
+    font-size: 55px;
+}
+.textshadow{
+    text-shadow: 1px 3px 3px #d079e1;
+}
+.boxshadow{
+   
+    box-shadow: 1px 3px 3px #82795f;
+    margin: auto;
+
+}
+div ul li{
+    overflow: hidden;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    /* display: flex; */
+    justify-content: center;
+    font-family:Varela Round ;
+    
+}
+div ul{
+    display: inline-block;
+    background-color: aqua;
+    margin: auto;
+}
+
+div button{
+    float: left;
+    margin: 26px;
+    padding: 26px;
+    border-radius: 10px rgb(240, 237, 237);
+    box-shadow: 2px 2px 0px rgba(80, 78, 78, 0.628);
+
+}
+
+.logo img{
+    height:110px;
+    width: 110px;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
